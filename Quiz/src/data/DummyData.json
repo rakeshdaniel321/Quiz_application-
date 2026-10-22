@@ -1,0 +1,82 @@
+[
+  { "id": "react", "icon": "⚛️", "title": "React Basics", "description": "Components, props and state",
+    "questions": [
+      { "id": "react-1", "question": "What does JSX stand for?", "options": ["JavaScript XML", "Java Syntax Extension", "JSON XML", "JavaScript Extra"], "answer": 0 },
+      { "id": "react-2", "question": "Which hook manages local state?", "options": ["useRef", "useState", "useMemo", "useId"], "answer": 1 },
+      { "id": "react-3", "question": "How are props passed?", "options": ["Parent to child", "Child to parent", "Sibling to sibling", "Globally only"], "answer": 0 },
+      { "id": "react-4", "question": "Which prop is needed in list rendering?", "options": ["id", "key", "index", "ref"], "answer": 1 },
+      { "id": "react-5", "question": "Hook for side effects?", "options": ["useEffect", "useState", "useReducer", "useContext"], "answer": 0 }
+    ] },
+  { "id": "js", "icon": "🟨", "title": "JavaScript", "description": "Core language questions",
+    "questions": [
+      { "id": "js-1", "question": "typeof null returns?", "options": ["null", "undefined", "object", "number"], "answer": 2 },
+      { "id": "js-2", "question": "Which keyword is block scoped?", "options": ["var", "let", "function", "global"], "answer": 1 },
+      { "id": "js-3", "question": "What does === check?", "options": ["Value only", "Type only", "Value and type", "Reference only"], "answer": 2 },
+      { "id": "js-4", "question": "Array method that returns matches?", "options": ["find", "filter", "forEach", "push"], "answer": 1 },
+      { "id": "js-5", "question": "What is a closure?", "options": ["A loop", "Function remembering outer scope", "A class", "An event"], "answer": 1 }
+    ] },
+  { "id": "css", "icon": "🎨", "title": "CSS", "description": "Layout and styling",
+    "questions": [
+      { "id": "css-1", "question": "Which property creates a flex container?", "options": ["display:flex", "flex:1", "position:flex", "float:flex"], "answer": 0 },
+      { "id": "css-2", "question": "Default position value?", "options": ["relative", "absolute", "static", "fixed"], "answer": 2 },
+      { "id": "css-3", "question": "Which unit is relative to root font size?", "options": ["em", "rem", "px", "pt"], "answer": 1 },
+      { "id": "css-4", "question": "Property for space outside border?", "options": ["padding", "margin", "gap", "outline"], "answer": 1 },
+      { "id": "css-5", "question": "Which selector targets a class?", "options": ["#name", ".name", "name", "*name"], "answer": 1 }
+    ] },
+  { "id": "html", "icon": "🌐", "title": "HTML", "description": "Markup fundamentals",
+    "questions": [
+      { "id": "html-1", "question": "Largest heading tag?", "options": ["h6", "h1", "head", "header"], "answer": 1 },
+      { "id": "html-2", "question": "Tag for a hyperlink?", "options": ["a", "link", "href", "url"], "answer": 0 },
+      { "id": "html-3", "question": "Which tag holds page metadata?", "options": ["body", "head", "footer", "main"], "answer": 1 },
+      { "id": "html-4", "question": "Attribute for image alt text?", "options": ["title", "alt", "src", "name"], "answer": 1 },
+      { "id": "html-5", "question": "Semantic tag for navigation?", "options": ["nav", "div", "menu", "section"], "answer": 0 }
+    ] },
+  { "id": "git", "icon": "🌿", "title": "Git", "description": "Version control",
+    "questions": [
+      { "id": "git-1", "question": "Command to create a repo?", "options": ["git start", "git init", "git new", "git create"], "answer": 1 },
+      { "id": "git-2", "question": "Command to save changes locally?", "options": ["git push", "git commit", "git fetch", "git clone"], "answer": 1 },
+      { "id": "git-3", "question": "Command to copy a remote repo?", "options": ["git copy", "git clone", "git pull", "git get"], "answer": 1 },
+      { "id": "git-4", "question": "What does git pull do?", "options": ["Fetch and merge", "Only fetch", "Delete branch", "Create tag"], "answer": 0 },
+      { "id": "git-5", "question": "Command to make a branch?", "options": ["git branch", "git fork", "git split", "git tree"], "answer": 0 }
+    ] },
+  { "id": "node", "icon": "🟩", "title": "Node.js", "description": "Server-side JavaScript",
+    "questions": [
+      { "id": "node-1", "question": "Node.js runs on which engine?", "options": ["SpiderMonkey", "V8", "Chakra", "Gecko"], "answer": 1 },
+      { "id": "node-2", "question": "Default package manager?", "options": ["npm", "pip", "gem", "cargo"], "answer": 0 },
+      { "id": "node-3", "question": "Which file lists dependencies?", "options": ["index.js", "package.json", "app.config", "node.txt"], "answer": 1 },
+      { "id": "node-4", "question": "Core module for file system?", "options": ["path", "fs", "os", "http"], "answer": 1 },
+      { "id": "node-5", "question": "Command to run a script?", "options": ["node file.js", "run file.js", "exec file.js", "go file.js"], "answer": 0 }
+    ] },
+  { "id": "tailwind", "icon": "💨", "title": "Tailwind CSS", "description": "Utility-first styling",
+    "questions": [
+      { "id": "tailwind-1", "question": "Tailwind is what type of framework?", "options": ["Component", "Utility-first", "JS", "Backend"], "answer": 1 },
+      { "id": "tailwind-2", "question": "Class for padding 1rem?", "options": ["p-4", "pad-1", "m-4", "space-4"], "answer": 0 },
+      { "id": "tailwind-3", "question": "Hide on mobile, show on md?", "options": ["hidden md:block", "md:hidden", "show md", "mobile:none"], "answer": 0 },
+      { "id": "tailwind-4", "question": "Tailwind v4 CSS import?", "options": ["@import \"tailwindcss\"", "@tailwind base", "require tailwind", "link tailwind"], "answer": 0 },
+      { "id": "tailwind-5", "question": "Class for vertically centered flex items?", "options": ["items-center", "align-mid", "center-y", "flex-mid"], "answer": 0 }
+    ] },
+  { "id": "sql", "icon": "🗄️", "title": "SQL", "description": "Querying databases",
+    "questions": [
+      { "id": "sql-1", "question": "Which clause filters rows?", "options": ["WHERE", "ORDER", "GROUP", "LIMIT"], "answer": 0 },
+      { "id": "sql-2", "question": "Command to read data?", "options": ["GET", "SELECT", "FETCH", "READ"], "answer": 1 },
+      { "id": "sql-3", "question": "Which joins only matching rows?", "options": ["INNER JOIN", "LEFT JOIN", "FULL JOIN", "CROSS JOIN"], "answer": 0 },
+      { "id": "sql-4", "question": "Aggregate for row count?", "options": ["SUM", "COUNT", "TOTAL", "NUM"], "answer": 1 },
+      { "id": "sql-5", "question": "Which keyword sorts results?", "options": ["SORT", "ORDER BY", "ARRANGE", "GROUP"], "answer": 1 }
+    ] },
+  { "id": "ts", "icon": "🔷", "title": "TypeScript", "description": "Typed JavaScript",
+    "questions": [
+      { "id": "ts-1", "question": "TypeScript compiles to?", "options": ["Java", "JavaScript", "C#", "Python"], "answer": 1 },
+      { "id": "ts-2", "question": "Type for text?", "options": ["text", "string", "char", "str"], "answer": 1 },
+      { "id": "ts-3", "question": "Keyword to define object shape?", "options": ["interface", "shape", "struct", "object"], "answer": 0 },
+      { "id": "ts-4", "question": "Optional property syntax?", "options": ["name?: string", "name!: string", "name|: string", "?name: string"], "answer": 0 },
+      { "id": "ts-5", "question": "Which is a generic?", "options": ["Array<T>", "Array[T]", "Array(T)", "Array{T}"], "answer": 0 }
+    ] },
+  { "id": "gk", "icon": "🧠", "title": "General Knowledge", "description": "Mixed easy questions",
+    "questions": [
+      { "id": "gk-1", "question": "Capital of India?", "options": ["Mumbai", "New Delhi", "Chennai", "Kolkata"], "answer": 1 },
+      { "id": "gk-2", "question": "Largest planet?", "options": ["Earth", "Mars", "Jupiter", "Venus"], "answer": 2 },
+      { "id": "gk-3", "question": "H2O is?", "options": ["Salt", "Water", "Oxygen", "Gold"], "answer": 1 },
+      { "id": "gk-4", "question": "Days in a leap year?", "options": ["365", "366", "364", "367"], "answer": 1 },
+      { "id": "gk-5", "question": "Who wrote the Indian national anthem?", "options": ["Tagore", "Gandhi", "Nehru", "Bose"], "answer": 0 }
+    ] }
+]
