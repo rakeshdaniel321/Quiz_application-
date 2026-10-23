@@ -1,6 +1,6 @@
 import { Link, Navigate, useNavigate, useParams } from "react-router-dom";
 import useQuiz from "../hooks/useQuiz.js";
-import quizzes from "../Data/DummyData.json";
+import quizzes from "../Data/DummyData.json"
 
 export default function ResultPage() {
   const { id } = useParams();
