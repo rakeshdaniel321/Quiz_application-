@@ -3,7 +3,7 @@ import ProgressBar from "../components/ProgressBar.jsx";
 import QuestionForm from "../components/QuestionForm.jsx";
 import useQuiz from "../hooks/useQuiz.js";
 import { calcScore } from "../utils/quiz.js";
-import quizzes from "../data/dummyData.json";
+import quizzes from "../Data/DummyData.json";
 
 export default function QuizPage() {
   const { id } = useParams();

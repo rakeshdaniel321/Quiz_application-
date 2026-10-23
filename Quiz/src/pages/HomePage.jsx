@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import ProductCard from "../components/ProductCard.jsx";
 import useQuiz from "../hooks/useQuiz.js";
-import quizzes from "../data/dummyData.json";
+import quizzes from "../Data/DummyData.json";
 
 export default function HomePage() {
   const { state } = useQuiz();
