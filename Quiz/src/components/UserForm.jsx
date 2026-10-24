@@ -25,7 +25,7 @@ export default function UserForm({ onSubmit }) {
         onChange={(e) => { setName(e.target.value); setError(""); }}
         aria-invalid={!!error}
         className="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2 outline-none focus:border-teal-600 focus:ring-2 focus:ring-teal-200"
-        placeholder="Letters only, e.g. Arun Kumar"
+        placeholder="Letters only, e.g. Rakesh AKM"
       />
       {error && <p className="mt-1 text-sm text-red-600">{error}</p>}
 
